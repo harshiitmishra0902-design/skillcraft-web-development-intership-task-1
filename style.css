@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-/* Fixed Capsule Header */
+
 header {
     position: fixed;
     top: 20px;
@@ -44,7 +44,7 @@ header {
     cursor: pointer;
 }
 
-/* Color configurations for each separate tab */
+
 #nav-home    { --accent: #ffffff; --bg: #2273f5; }
 #nav-about   { --accent: #ffffff; --bg: #e63956; }
 #nav-contact { --accent: #0b162c; --bg: #29eb86; }
