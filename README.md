@@ -20,24 +20,20 @@ How does the magic under the hood actually work? Here is a breakdown in plain la
 *   **The Brains (JavaScript):** Instead of forcing the computer to constantly guess where you are while scrolling, the script sets up a digital radar system called an **Intersection Observer**. 
 *   **The Switch:** As soon as a section crosses into your main view screen, this radar catches it, looks up the corresponding button name in the navigation bar, removes the highlight from the old page name, and glows the new page button instantly.
 
----## 🛠️ Technologies Used
+*   ## 🛠️ Technologies Used
 
 *   **HTML5:** Structured semantic markup using `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` elements.
 *   **CSS3 Flexbox:** Deployed heavily across sections, headers, and navigation bars to provide predictable layouts.
 *   **Modern CSS Styling:** Utilizes custom properties, absolute/fixed layout positioning, transitions, CSS gradients, and backdrop blurs.
 *   **Vanilla JavaScript (ES6):** Runs a high-performance `IntersectionObserver` instance that updates states cleanly based on spatial tracking constraints.
 
----## 📂 Project Structure
+*   ## 📂 Project Structure
 ├── index.html         # Main entry point (HTML skeleton structures)
 ├── style.css          # Global styling rules, themes, animations, and variables
 ├── script.js          # IntersectionObserver logic and active state tracking
 └── README.md          # Project documentation and specifications
 
-## Here is the completed, fully integrated **Author** section with your details:
-
----
-
-## ✒️ Author
+*   ## ✒️ Author
 
 * **Harshit Mishra**
 * *Developed as a responsive web design project using HTML, CSS, and JavaScript for the SkillCraft Technology Web Development Internship.*
